@@ -1,50 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 48px;
-            color: black;
-            background-color: transparent;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .scoreboard {
-            display: flex;
-            justify-content: space-between;
-            width: 500px;
-        }
-        .team {
-            width: 200px;
-        }
-    </style>
-    <title>Punktestand</title>
+    <title>Testseite</title>
 </head>
 <body>
-    <div class="scoreboard">
-        <div class="team" id="teamA">Team A: 0</div>
-        <div class="team" id="teamB">Team B: 0</div>
-    </div>
-
-    <script>
-        function updateScore(teamAScore, teamBScore) {
-            document.getElementById('teamA').textContent = 'Team A: ' + teamAScore;
-            document.getElementById('teamB').textContent = 'Team B: ' + teamBScore;
-        }
-
-        // Example: Update score after 5 seconds (you can remove this or modify)
-        setTimeout(() => {
-            updateScore(3, 1);
-        }, 5000);
-    </script>
+    <h1>Hallo, Welt!</h1>
+    <p>Dies ist ein Test.</p>
 </body>
 </html>
